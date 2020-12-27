@@ -27,7 +27,11 @@ async def rij(ctx):
 
 @bot.command()
 async def muteki(ctx):
-    await ctx.send('https://mutekijikan.stores.jp/')
+    await ctx.send('https://mutekijikan.stores.jp/')    
+
+@bot.command()
+async def redbull(ctx):
+    await ctx.send('https://www.redbull.com/')
 
 @bot.command()
 async def lagoon(ctx):
