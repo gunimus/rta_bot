@@ -67,7 +67,7 @@ async def lagoon(ctx):
 
 @bot.command()
 async def hotplate(ctx):
-    randnum = random.randrange(4)
+    randnum = random.randrange(5)
     if randnum == 0:
         await ctx.send('ホットプレぇわ…')
     elif randnum == 1:
@@ -76,6 +76,8 @@ async def hotplate(ctx):
         await ctx.send('これがホットプレートの力です')
     elif randnum == 3:
         await ctx.send('ホットプレートでファミコンを温めていきます')
+    elif randnum == 4:
+        await ctx.send('そして焼肉へ…')
 
 @bot.command()
 async def c(ctx):
