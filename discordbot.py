@@ -66,6 +66,10 @@ async def lagoon(ctx):
         await ctx.send('…夢を見てたんだ…')
 
 @bot.command()
+async def hotplate(ctx):
+    await ctx.send('ホットプレぇわ…')
+
+@bot.command()
 async def c(ctx):
     await ctx.send('The race will begin in 10 seconds!')
     time.sleep(5)
