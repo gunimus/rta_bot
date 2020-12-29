@@ -80,6 +80,14 @@ async def hotplate(ctx):
         await ctx.send('そして焼肉へ…')
 
 @bot.command()
+async def hanabi(ctx):
+    randnum = random.randrange(2)
+    if randnum == 0:
+        await ctx.send('花火はマズい')
+    elif randnum == 1:
+        await ctx.send('はじまっちまったねぇ！')
+
+@bot.command()
 async def c(ctx):
     await ctx.send('The race will begin in 10 seconds!')
     time.sleep(5)
