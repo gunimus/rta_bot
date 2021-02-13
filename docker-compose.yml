@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  discordbot:
+    image: gunimus/rtastore-bot
+    build: 
+      context: .
+    env_file:
+      - .env
