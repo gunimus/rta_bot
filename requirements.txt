@@ -1,2 +1,2 @@
-discord.py[voice]
-requests
+discord.py[voice]==1.6.0
+requests==2.25.1
